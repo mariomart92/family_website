@@ -1,0 +1,119 @@
+/* Core Styles */
+
+body {
+  background: #eaeaea !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Navbar Styles */
+
+nav {
+  background: #eaeaea;
+}
+
+button {
+  background: #eaeaea !important;
+}
+
+nav button span i {
+  padding-top: 18%;
+  color: #0e1111;
+}
+
+ul li a {
+  color: #0e1111;
+  font-size: 17px !important;
+}
+
+ul li a:hover {
+  color: #c3834c;
+}
+
+/* Header */
+
+img {
+  opacity: .8;
+  height: 800px;
+}
+
+/* Header Image Responsive */
+
+@media (max-width: 768px) {
+  img {
+    height: 450px;
+  }
+}
+
+@media (max-width: 414px) {
+  img {
+    height: 300px;
+  }
+}
+
+/* Jumbotron */
+
+hr {
+  width: 100%;
+  color: #0e1111 !important;
+  border: .5px solid #0e1111 !important;
+}
+
+/* Form Styles */
+
+form {
+  margin: 10em 2.5em;
+  padding: 2.5em;
+  border: 1px solid #0e1111;
+  border-radius: 5px;
+}
+
+.form-control {
+  border-color: #0e1111 !important;
+}
+
+.form-control:focus {
+  border-color: #0e1111 !important;
+  box-shadow: inset 0 1px 1px #eaeaea, 0 0 8px #eaeaea !important;
+}
+
+form h4 {
+  font-size: 20px;
+}
+
+form button {
+  background: #fff !important;
+  border: 1px solid #0e1111 !important;
+  font-size: 18px !important;
+}
+
+form button:hover {
+  background: #0e1111 !important;
+  color: #eaeaea !important;
+}
+
+/* Footer Styles */
+
+footer {
+  margin: 1em;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a i {
+  font-size: 2em;
+}

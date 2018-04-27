@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Photos</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="index.html" class="btn">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="photos.html" class="btn">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a href="events.html" class="btn">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="btn">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div class="owl-carousel">
+    <div>
+      <img width="auto" height="auto" src="images/s_v13akamj3k60417.jpg">
+    </div>
+    <div>
+      <img width="auto" height="auto" src="images/s_v13akamj3k60445.jpg">
+    </div>>
+    <div>
+      <img width="auto" height="auto" src="images/s_v13akamj3k60483.jpg">
+    </div>
+    <div>
+      <img width="auto" height="auto" src="images/s_v13akamj3k60484.jpg">
+    </div>
+    <div>
+      <img width="auto" height="auto" src="images/s_v13akamj3k60485.jpg">
+    </div>
+    <div>
+      <img width="auto" height="auto" src="images/s_v13akamj3k60487.jpg">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <h2>
+            Follow Us
+          </h2>
+          <hr style="width: 50%;">
+          <ul>
+            <br>
+            <li>
+              <a href="#" class="btn">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <h2>
+            Contact
+          </h2>
+          <hr style="width: 50%;">
+          <h5>
+            <b>
+              Email</b>
+          </h5>
+          <p>example@email.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel();
+    });
+
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
+        },
+        600: {
+          items: 1,
+          nav: true
+        },
+        1000: {
+          items: 1,
+          nav: true,
+          loop: true
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
