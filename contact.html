@@ -18,7 +18,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container">
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -28,19 +28,31 @@
         </span>
       </button>
 
+      <!-- Navabar Collapse -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a href="#" class="btn">Home</a>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+
+          <!-- Navbar Items -->
+          <li class="nav-item dropdown">
+            <a href="photos.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Families</a>
+
+            <!-- Dropdown Menu -->
+            <div class="dropdown-menu">
+              <a href="gonzales.html" class="dropdown-item" aria-labelledby="navbarDropdownMenuLink">Gonzales</a>
+              <a href="ortega.html" class="dropdown-item">Ortega</a>
+              <a href="romero.html" class="dropdown-item">Romero</a>
+            </div>
+          </li>
+
+          <!-- Navbar Items Cont.-->
+          <li class="nav-item">
+            <a href="events.html" class="nav-link">Events</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="btn">Photos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="btn">Events</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="btn">Contact</a>
+            <a href="contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>
@@ -80,7 +92,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6">
           <h2>Follow Us
-            <hr>
+            <br>
           </h2>
           <ul>
             <li>
@@ -102,7 +114,7 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
           <h2>Contact
-            <hr>
+            <br>
           </h2>
           <h5>
             <b>Email</b>

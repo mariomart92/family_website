@@ -5,6 +5,22 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
 }
 
+h1 {
+  text-align: center;
+  padding: 2em 0 2me 0 !important;
+  font-size: 50px !important;
+}
+
+h1 a {
+  color: #0e1111;
+  overflow: none;
+  text-decoration: none !important;
+}
+
+h1 a:hover {
+  color: #c3834c;
+}
+
 /* Navbar Styles */
 
 nav {
@@ -23,10 +39,52 @@ nav button span i {
 ul li a {
   color: #0e1111;
   font-size: 17px !important;
+  text-decoration: none;
+  padding: 10px;
 }
 
 ul li a:hover {
-  color: #F03A47;
+  color: #c3834c;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  background: #eaeaea !important;
+  border: none !important;
+}
+
+.dropdown-item:hover {
+  background: #eaeaea !important;
+  color: #c3834c !important;
+}
+
+/* Header */
+
+img {
+  opacity: .8;
+  height: 650px;
+}
+
+/* Header Image Responsive */
+
+@media (max-width: 768px) {
+  img {
+    height: 450px;
+  }
+}
+
+@media (max-width: 414px) {
+  img {
+    height: 300px;
+  }
+}
+
+/* Jumbotron */
+
+hr {
+  width: 100%;
+  color: #0e1111 !important;
+  border: .5px solid #0e1111 !important;
 }
 
 /* Form Styles */
@@ -68,8 +126,8 @@ footer {
   margin: 1em;
 }
 
-hr {
-  width: 50%;
+h2 {
+  text-align: center;
 }
 
 footer ul {
@@ -81,6 +139,5 @@ footer ul li {
 }
 
 footer ul li a i {
-  font-size: 2.5em;
-  padding: 0 .5em 0 .5em;
+  font-size: 2em;
 }
